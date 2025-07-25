@@ -46,3 +46,9 @@ def hangman():
         print("🎉 Congratulations! You guessed the word:", chosen_word)
     else:
         print("💀 You ran out of guesses! The word was:", chosen_word)
+
+        # Run the game
+if __name__ == "__main__":
+    hangman()
+
+
